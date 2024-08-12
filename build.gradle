@@ -31,7 +31,7 @@ jib {
 	}
 	to {
 		image = '905418310587.dkr.ecr.ap-northeast-2.amazonaws.com/image-server'
-		tags = ['0.0.1']
+		tags = ['0.0.2']
 	}
 	container {
 		creationTime = 'USE_CURRENT_TIMESTAMP'

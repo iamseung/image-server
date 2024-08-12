@@ -24,7 +24,7 @@ spec:
             claimName: image-volume-claim
       containers:
         - name: image
-          image: 638597541124.dkr.ecr.ap-northeast-2.amazonaws.com/image-server:0.0.2
+          image: 905418310587.dkr.ecr.ap-northeast-2.amazonaws.com/image-server:0.0.2
           volumeMounts:
             - name: image-volume
               mountPath: /images
@@ -36,10 +36,10 @@ spec:
           resources:
             requests:
               memory: "512Mi"
-              cpu: "500m"
+              cpu: "300m"
             limits:
               memory: "1Gi"
-              cpu: "1000m"
+              cpu: "600m"
           lifecycle:
             preStop:
               exec:
